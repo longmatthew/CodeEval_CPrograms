@@ -1,8 +1,6 @@
-#include <iostream>
-#include <fstream>
+#define _CRT_SECURE_NO_WARNINGS
 
-using std::cout;
-using std::endl;
+#include <stdio.h>
 
 int main(int argc, char *argv[]) 
 {
@@ -11,7 +9,7 @@ int main(int argc, char *argv[])
 	for (i = 1; i <= 50; i++)
 	{
 		oddnum = ((2 * i) - 1);
-		cout << oddnum << endl;
+		printf("%d\n", oddnum);
 	}
 
 	return 0;
